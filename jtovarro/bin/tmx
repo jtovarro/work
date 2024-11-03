@@ -20,6 +20,8 @@ if [[ -z "$1" ]]; then
 # Only because I often issue `ls` to this script by accident
 if [[ "$1" == "ls" ]]; then
     tmux ls
+    exit
+fi
 
 base_session="$1"
 socket=$HOME/.tmux-$base_session-0
