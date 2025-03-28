@@ -1,3 +1,3 @@
 #!/bin/bash
 
-HOME=/home/YOURUSER/work/jtovarro "$SHELL"
+HOME=$HOME/work/jtovarro "$SHELL"
